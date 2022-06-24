@@ -10,14 +10,14 @@ public class LoadLevel : MonoBehaviour
    public Animator fadeSystem;
 
 
-   /* private void Awake()
+    private void Awake()
     {
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
-    }*/
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (currentsceneName == "Level_1.5")
+        if (currentsceneName == "Level_4")
         {
             if (collision.CompareTag("Player")&&inventory.instance.coin_count>=10)
             {
@@ -28,7 +28,7 @@ public class LoadLevel : MonoBehaviour
 
             }
         }
-        if (currentsceneName == "Level_2")
+        if (currentsceneName == "Level_5")
         {
             if (collision.CompareTag("Player") && inventory.instance.coin_count >= 20)
             {
