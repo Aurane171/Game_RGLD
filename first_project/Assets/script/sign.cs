@@ -8,12 +8,10 @@ public class sign : MonoBehaviour
 
     private move_player move; 
     public Text interactUI;
-    //public GameObject Canvas; 
-    
+   
     void Awake()
     {
         move = GameObject.FindGameObjectWithTag("Player").GetComponent<move_player>(); 
-        //interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -21,7 +19,6 @@ public class sign : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             interactUI.enabled = true;
-            //Canvas.SetActive(true); 
         }
     }
 
@@ -30,8 +27,6 @@ public class sign : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             interactUI.enabled = false;
-            //Canvas.SetActive(true);
         }
-    
     }
 }
