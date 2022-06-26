@@ -24,6 +24,13 @@ public class move_player : MonoBehaviour
     public Animator animator;
     public SpriteRenderer sprite;
 
+    public AudioClip clip;
+    public AudioSource audioSource;
+
+    public AudioClip clip2;
+    public AudioSource audioSource2;
+
+
     public static move_player instance;
 
     private void Awake()
@@ -69,11 +76,13 @@ public class move_player : MonoBehaviour
         {
            Jump( jumpforce); 
             isJump = false ;
+            audioSource.PlayOneShot(clip); 
         }
         if (doubleJump)
         {
            Jump( doubleJumpForce);
             doubleJump = false;
+            audioSource2.PlayOneShot(clip2); 
         }
     }
 

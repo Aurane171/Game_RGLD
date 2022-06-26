@@ -9,6 +9,7 @@ public class LoadLevel : MonoBehaviour
    public string currentsceneName;
    public Animator fadeSystem;
 
+    public static LoadLevel instance; 
 
     private void Awake()
     {
@@ -49,7 +50,10 @@ public class LoadLevel : MonoBehaviour
     }
         
         
-    
+    public void lastScene()
+    {
+        SceneManager.LoadScene("Last");
+    }
 
     public IEnumerator loadNextScene()
     {

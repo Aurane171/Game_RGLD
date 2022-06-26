@@ -23,10 +23,10 @@ public class GameOverManager : MonoBehaviour
 
     public void OnPlayerDeath()
     {
-       if (CurrentSceneManager.instance.isPlayerPresentByDefault)
-       {
+        if (CurrentSceneManager.instance.isPlayerPresentByDefault)
+        {
             DontDestroy.instance.RemoveFromDontDestroyOnLoad();
-       }
+        }
         gameOverUI.SetActive(true);
     }
 

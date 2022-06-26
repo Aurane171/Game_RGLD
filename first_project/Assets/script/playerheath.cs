@@ -38,7 +38,10 @@ public class playerheath : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.K))
-            TakeDamage(51); 
+            TakeDamage(51);
+
+        if (Input.GetKeyDown(KeyCode.M))
+            HealPlayer(20); 
     }
 
     public void TakeDamage(int damage)
