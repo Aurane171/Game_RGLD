@@ -73,8 +73,8 @@
     <Compile Include="Assets\script\healthbar.cs" />
     <Compile Include="Assets\script\camera_follow.cs" />
     <Compile Include="Assets\script\GameOverManager.cs" />
+    <Compile Include="Assets\script\audio.cs" />
     <Compile Include="Assets\script\LoadLevel.cs" />
-    <Compile Include="Assets\audio.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

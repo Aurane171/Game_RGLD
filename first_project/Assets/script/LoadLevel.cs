@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; 
-
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class LoadLevel : MonoBehaviour
 {
     public string sceneName;
    public string currentsceneName;
    public Animator fadeSystem;
+   
 
     public static LoadLevel instance; 
 
@@ -37,7 +38,6 @@ public class LoadLevel : MonoBehaviour
                 StartCoroutine(loadNextScene());
                 int nbcoin = inventory.instance.coin_count;
                 inventory.instance.RemoveCoins(nbcoin);
-
             }
         }
         else if(collision.CompareTag("Player"))
@@ -50,10 +50,8 @@ public class LoadLevel : MonoBehaviour
     }
         
         
-    public void lastScene()
-    {
-        SceneManager.LoadScene("Last");
-    }
+    
+    
 
     public IEnumerator loadNextScene()
     {
