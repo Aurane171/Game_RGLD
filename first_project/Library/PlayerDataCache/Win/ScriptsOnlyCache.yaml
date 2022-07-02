@@ -744,13 +744,13 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 0cc17a81c0e4caa59ec4c0fbe0e4a8e9
+      Hash: 512d8c53b54a42b1d947ab07c868ec2f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: gainhealth
   - hash:
       serializedVersion: 2
-      Hash: 6685a9262408da1ae54e801a42cfe64f
+      Hash: 3c2c14ab3b13373a5b39e107dad9c3ca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: damage
@@ -900,7 +900,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 7ff206da78adb65561f91923b530aee8
+      Hash: 1359053bb74a23178d2d746f86021b51
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: move_player
@@ -972,7 +972,7 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 55e3d7a7a2018520e3bd5cd563d97cc8
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: pick
@@ -1195,4 +1195,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level_5.unity
   - Assets/Scenes/Level_6.unity
   - Assets/Scenes/Last.unity
-  playerPath: C:/Users/Aurane171/Desktop/BUILD_FINAUX_RGLD/LO6/first_project.exe
+  playerPath: C:/Users/Aurane171/Desktop/BUILD_FINAUX_RGLD/LO1/first_project.exe

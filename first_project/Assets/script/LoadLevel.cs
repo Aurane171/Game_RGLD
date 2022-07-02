@@ -36,8 +36,7 @@ public class LoadLevel : MonoBehaviour
             {
 
                 StartCoroutine(loadNextScene());
-                int nbcoin = inventory.instance.coin_count;
-                inventory.instance.RemoveCoins(nbcoin);
+                
             }
         }
         else if(collision.CompareTag("Player"))
